@@ -22,7 +22,7 @@ public class AppUserService {
     public AppUser getUserById(Long userId)
     {
 
-        Optional<AppUser> appUserWrapper = AppUserRepository.findUserById(userId);
+        Optional<AppUser> appUserWrapper = appUserRepository.findById(userId);
 
         return appUserWrapper.orElse(null);
 

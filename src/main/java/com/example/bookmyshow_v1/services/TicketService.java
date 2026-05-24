@@ -9,8 +9,6 @@ import com.example.bookmyshow_v1.models.Ticket;
 import com.example.bookmyshow_v1.repositories.TicketRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 

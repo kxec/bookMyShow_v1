@@ -1,7 +1,10 @@
 package com.example.bookmyshow_v1.repositories;
 
+import com.example.bookmyshow_v1.models.Ticket;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class TicketRepository {
+public interface TicketRepository extends JpaRepository<Ticket , Long> {
+
 }

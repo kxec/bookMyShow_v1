@@ -24,7 +24,7 @@ public class SeatInAShowService {
     public List<SeatInAShow> findSeatsById(List<Long> seatIds)
     {
 
-        List<SeatInAShow> seatsInAShow = SeatInAShowRepository.findSeatsById(seatIds);
+        List<SeatInAShow> seatsInAShow = seatInAShowRepository.findAllById(seatIds);
         return seatsInAShow;
     }
 
