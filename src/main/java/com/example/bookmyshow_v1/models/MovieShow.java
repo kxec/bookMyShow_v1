@@ -19,6 +19,6 @@ public class MovieShow extends BaseModel{
     private Auditorium auditorium;
     private Date entryTime;
     private Date exitTime;
-    private int lockingTimeout;
+    private long lockingTimeout;
     private int maxTicketsAllowedForOneUser;
 }
